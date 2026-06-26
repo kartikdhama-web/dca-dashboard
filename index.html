@@ -5,38 +5,45 @@
 <title>DCA Kharif 2026 — Monsoon &amp; District Rainfall Dashboard</title>
 <style>
   :root{
-    --bg:#0a1620;
-    --panel:#0f2030;
-    --panel-2:#122638;
-    --line:rgba(255,255,255,0.08);
-    --teal:#1ba98c;
-    --teal-dim:rgba(27,169,140,0.18);
-    --amber:#e0a426;
-    --amber-dim:rgba(224,164,38,0.18);
-    --text:#e8eef2;
-    --text-dim:#90a4b3;
-    --excess:#42A5F5;
-    --normal:#43A047;
-    --deficient:#F57C00;
-    --scanty:#D32F2F;
-    --large-excess:#1565C0;
-    --zone-active:#2f7fd1;
-    --zone-dry:#e0682b;
-    --zone-arriving:#e0c23c;
-    --zone-heat:#c4291f;
-    --zone-rain:#1f7a6b;
-    --font-display: 'Iowan Old Style', 'Georgia', serif;
-    --font-body: -apple-system, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif;
-    --font-data: 'SF Mono', 'Consolas', 'Menlo', monospace;
-  }
+  --bg:#eef8ee;
+  --panel:#ffffff;
+  --panel-2:#f3faf3;
+  --line:#d6e8d6;
+
+  --teal:#2e7d32;
+  --teal-dim:rgba(46,125,50,0.12);
+
+  --amber:#f59e0b;
+  --amber-dim:rgba(245,158,11,0.15);
+
+  --text:#1b4332;
+  --text-dim:#5f7d68;
+
+  --excess:#42A5F5;
+  --normal:#43A047;
+  --deficient:#F57C00;
+  --scanty:#D32F2F;
+  --large-excess:#1565C0;
+
+  --zone-active:#2f7fd1;
+  --zone-dry:#e0682b;
+  --zone-arriving:#e0c23c;
+  --zone-heat:#c4291f;
+  --zone-rain:#1f7a6b;
+
+  --font-display:'Iowan Old Style','Georgia',serif;
+  --font-body:-apple-system,'Segoe UI',Roboto,Helvetica,Arial,sans-serif;
+  --font-data:'SF Mono','Consolas','Menlo',monospace;
+}
   *{box-sizing:border-box;}
   body{
-    margin:0;
-    background:var(--bg);
-    color:var(--text);
-    font-family:var(--font-body);
-    -webkit-font-smoothing:antialiased;
-  }
+  margin:0;
+  background:var(--bg);
+  color:var(--text);
+  font-family:var(--font-body);
+  -webkit-font-smoothing:antialiased;
+  position:relative;
+}
   .wrap{max-width:1360px;margin:0 auto;padding:28px 24px 60px;}
 
   header.top{
